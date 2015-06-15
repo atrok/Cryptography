@@ -1,0 +1,248 @@
+May 31, 2015 1:34:20 AM paddingOracleAttack.PaddingOracle checkCBCBlocks
+INFO: original cypher bytes: [-14, 11, -37, -90, -1, 41, -18, -41, -80, 70, -47, -33, -97, -73, 0, 0, 88, -79, -1, -76, 33, 10, 88, 15, 116, -117, 74, -57, 20, -64, 1, -67, 74, 97, 4, 68, 38, -5, 81, 93, -83, 63, 33, -15, -118, -91, 119, -64, -67, -13, 2, -109, 98, 102, -110, 111, -13, 125, -65, 112, 53, -43, -18, -76]
+May 31, 2015 1:34:20 AM paddingOracleAttack.PaddingOracle checkCBCBlocks
+INFO: block[0]:[-14, 11, -37, -90, -1, 41, -18, -41, -80, 70, -47, -33, -97, -73, 0, 0]
+May 31, 2015 1:34:20 AM paddingOracleAttack.PaddingOracle checkCBCBlocks
+INFO: block[1]:[88, -79, -1, -76, 33, 10, 88, 15, 116, -117, 74, -57, 20, -64, 1, -67]
+May 31, 2015 1:34:20 AM paddingOracleAttack.PaddingOracle checkCBCBlocks
+INFO: block[2]:[74, 97, 4, 68, 38, -5, 81, 93, -83, 63, 33, -15, -118, -91, 119, -64]
+May 31, 2015 1:34:20 AM paddingOracleAttack.PaddingOracle checkCBCBlocks
+INFO: block[3]:[-67, -13, 2, -109, 98, 102, -110, 111, -13, 125, -65, 112, 53, -43, -18, -76]
+May 31, 2015 1:34:21 AM paddingOracleAttack.PaddingOracle discoverPadding
+INFO: Padding is found: 9
+May 31, 2015 1:34:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 101 101 65 e
+May 31, 2015 1:34:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:34:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:34:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 103 103 67 g
+May 31, 2015 1:34:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:34:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 97 97 61 a
+May 31, 2015 1:35:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 114 114 72 r
+May 31, 2015 1:35:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 102 102 66 f
+May 31, 2015 1:35:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:52 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 105 105 69 i
+May 31, 2015 1:35:52 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:35:52 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:36:11 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 115 115 73 s
+May 31, 2015 1:36:11 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:36:11 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:36:32 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 115 115 73 s
+May 31, 2015 1:36:32 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115]
+May 31, 2015 1:36:32 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:36:43 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 79 79 4F O
+May 31, 2015 1:36:43 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 115]
+May 31, 2015 1:36:43 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:36:48 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 32 32 20  
+May 31, 2015 1:36:48 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 79, 115]
+May 31, 2015 1:36:48 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:37:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 104 104 68 h
+May 31, 2015 1:37:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 104, 32, 79, 115]
+May 31, 2015 1:37:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:37:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 115 115 73 s
+May 31, 2015 1:37:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 104, 32, 79, 115]
+May 31, 2015 1:37:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:37:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 105 105 69 i
+May 31, 2015 1:37:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:37:36 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:37:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 109 109 6D m
+May 31, 2015 1:37:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:37:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:38:04 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 97 97 61 a
+May 31, 2015 1:38:04 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:38:04 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:38:17 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 101 101 65 e
+May 31, 2015 1:38:17 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:38:17 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:38:34 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 117 117 75 u
+May 31, 2015 1:38:34 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:38:34 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:38:50 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 113 113 71 q
+May 31, 2015 1:38:50 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:38:50 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:01 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 83 83 53 S
+May 31, 2015 1:39:01 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:39:01 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:06 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 32 32 20  
+May 31, 2015 1:39:06 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:39:06 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:21 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 101 101 65 e
+May 31, 2015 1:39:21 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:39:21 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 114 114 72 r
+May 31, 2015 1:39:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:39:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:49 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 97 97 61 a
+May 31, 2015 1:39:49 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115]
+May 31, 2015 1:39:49 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:39:53 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 32 32 20  
+May 31, 2015 1:39:53 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32]
+May 31, 2015 1:39:53 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:40:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 115 115 73 s
+May 31, 2015 1:40:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 32]
+May 31, 2015 1:40:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:40:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 100 100 64 d
+May 31, 2015 1:40:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 115, 32]
+May 31, 2015 1:40:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:40:41 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 114 114 72 r
+May 31, 2015 1:40:41 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 100, 115, 32]
+May 31, 2015 1:40:41 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:40:56 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 111 111 6F o
+May 31, 2015 1:40:56 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 114, 100, 115, 32]
+May 31, 2015 1:40:56 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:41:09 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 87 87 57 W
+May 31, 2015 1:41:09 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:41:09 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:41:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 32 32 20  
+May 31, 2015 1:41:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:41:13 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:41:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 99 99 63 c
+May 31, 2015 1:41:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 0, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:41:26 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 0, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:41:40 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 105 105 69 i
+May 31, 2015 1:41:40 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 0, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:41:40 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 0, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:41:54 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 103 103 67 g
+May 31, 2015 1:41:54 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 0, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:41:54 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 0, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:42:07 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 97 97 61 a
+May 31, 2015 1:42:07 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 0, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:42:07 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 0, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:42:18 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 77 77 4D M
+May 31, 2015 1:42:18 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 0, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:42:18 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 0, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:42:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 32 32 20  
+May 31, 2015 1:42:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 0, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:42:22 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 0, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:42:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 101 101 65 e
+May 31, 2015 1:42:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 0, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:42:37 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 0, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:42:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 104 104 68 h
+May 31, 2015 1:42:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [0, 104, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:42:51 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [0, 104, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:43:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: Matching byte is found: 84 84 54 T
+May 31, 2015 1:43:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: tempDiscovered: [84, 104, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32]
+May 31, 2015 1:43:05 AM paddingOracleAttack.PaddingOracle discoverBytesSequence
+INFO: b: [84, 104, 101, 32, 77, 97, 103, 105, 99, 32, 87, 111, 114, 100, 115, 32, 97, 114, 101, 32, 83, 113, 117, 101, 97, 109, 105, 115, 104, 32, 79, 115, 115, 105, 102, 114, 97, 103, 101, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+May 31, 2015 1:43:05 AM paddingOracleAttack.PaddingOracle <init>
+INFO: The Magic Words are Squeamish Ossifrage									
