@@ -21,7 +21,7 @@ public class Condition3 extends PrimeFactoring{
 	}
 	
 	public BigInteger getX(){
-		return x=x.add(BigInteger.ONE);
+		return x=BigIntegerSqRoot.sqrt(a.pow(2).subtract(N));
 	}
 	
 	public void populatePQ(){
