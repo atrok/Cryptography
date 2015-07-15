@@ -1,6 +1,8 @@
 package utils;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.RoundingMode;
 
 public class BigIntegerSqRoot {
 
@@ -60,4 +62,47 @@ public static BigInteger sqrt(BigInteger x) {// taken from here http://stackover
     }
 }
 
+public static BigInteger sqrtN(BigInteger in) {
+    final BigInteger TWO = BigInteger.valueOf(2);
+    int c;
+
+    // Significantly speed-up algorithm by proper select of initial approximation
+    // As square root has 2 times less digits as original value
+    // we can start with 2^(length of N1 / 2)
+    BigInteger n0 = TWO.pow(in.bitLength() / 2);
+    // Value of approximate value on previous step
+    BigInteger np = in;
+
+    do {
+        // next approximation step: n0 = (n0 + in/n0) / 2
+        n0 = n0.add(in.divide(n0)).divide(TWO);
+
+        // compare current approximation with previous step
+        c = np.compareTo(n0);
+
+        // save value as previous approximation
+        np = n0;
+
+        // finish when previous step is equal to current
+    }  while (c != 0);
+
+    return n0;
+}
+
+public static BigDecimal sqrtDecimal(BigDecimal in, int scale){
+    BigDecimal sqrt = new BigDecimal(1);
+    sqrt.setScale(scale + 3, RoundingMode.FLOOR);
+    BigDecimal store = new BigDecimal(in.toString());
+    boolean first = true;
+    do{
+        if (!first){
+            store = new BigDecimal(sqrt.toString());
+        }
+        else first = false;
+        store.setScale(scale + 3, RoundingMode.FLOOR);
+        sqrt = in.divide(store, scale + 3, RoundingMode.FLOOR).add(store).divide(
+                BigDecimal.valueOf(2), scale + 3, RoundingMode.FLOOR);
+    }while (!store.equals(sqrt));
+    return sqrt.setScale(scale, RoundingMode.FLOOR);
+}
 } // end class bigIntSqRoot

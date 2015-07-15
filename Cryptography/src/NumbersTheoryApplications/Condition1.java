@@ -18,5 +18,12 @@ public class Condition1 extends PrimeFactoring{
 	public BigInteger getX(){
 		return BigIntegerSqRoot.sqrt(A.pow(2).subtract(N));
 	}
+
+	@Override
+	public boolean exitCondition() {
+		if(result[0].multiply(result[1]).equals(N))
+			return true;
+		return false;
+	}
 	
 }

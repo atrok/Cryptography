@@ -29,7 +29,7 @@ abstract public class PrimeFactoring {
 	
 	private boolean checkResult(){
 		
-		if (result[0].multiply(result[1]).equals(N))
+		if (exitCondition())
 			return true;
 		return false;
 
@@ -42,10 +42,12 @@ abstract public class PrimeFactoring {
 	
 	public BigInteger[] getPrimes(){
 		BigInteger i=new BigInteger("0");
+		factor(getA());
 		while (!checkResult()&!N.equals(i)){
 			i.add(BigInteger.ONE);
 			factor(getA());
 		}
+		
 		if (i.equals(N))
 			return null;
 		
@@ -54,6 +56,7 @@ abstract public class PrimeFactoring {
 	}
 	abstract public BigInteger getA();
 	abstract public BigInteger getX();
+	abstract public boolean exitCondition();
 	
 }
 
